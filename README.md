@@ -30,6 +30,7 @@ O propósito deste projeto é:
 - Reproduzir uma interface moderna e responsiva inspirada na Netflix.
 
 ---
+links:
+https://exercicio-ebac-modulo-21-qcu2.vercel.app/
 
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
 
