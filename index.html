@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <header class="header">
+       <div class="header__content">
+          <img src="./dist/imagen/img_logos/logonetflix.png" alt="Netflix" class="header__content__logo">
+          <a href="" role="button" class="header__content__button text--small">Entrar</a>
+       </div>
+  </header>
+
+   <section class="nav">
+     <ul class="nav__page">
+        <li class="nav__page__item">
+                Trailers
+        </li>
+        <li class="nav__page__item">
+                Mais títulos para assistir
+        </li>
+        <li class="nav__page__item">
+                Planos
+        </li>
+    </ul>
+   </section> 
+
+  <main class="main">
+    <div class="main__trailer">
+        <div class="main__trailer__video"> 
+            <video src="./dist/videos/Estou pensando em acabar com tudo _ um filme de Charlie Kaufman _ Trailer oficial _ Netflix.mp4" type="mp4" 
+             autoplay
+             muted
+             loop
+             playsinline
+             poster="/dist/imagen/estoupensandoemacabarcomtudocapa.webp"
+             >
+            </video> 
+            
+            <section class="main__menu">
+                <div class="main__menu__acesso">
+                           <div class="main__menu__acesso__logoNome">
+                                <img  class="main__menu__acesso__nfilme" src="./dist/imagen/img_logos/iconNfilme.png" alt="Nfilme">
+                                <img  id="tituloimg" class="main__menu__acesso__titulo" src="./dist/imagen/img_logos/nomeEstouPensandoEmAcabarComTudo.png" alt="Nfilme">
+                           </div>
+                        <form action="">
+                             <div class="efeito"> 
+                               <div class="formClass">
+                                     <label for="">Email </label>
+                                     <input type="text" placeholder="">
+                                </div>
+                             </div> 
+                            <button class="btn text--big">Acessar agora</button>
+                        </form>
+                    <p>Diversão ilimitada a parti de R$20,90</p>
+                </div>
+
+                <div class="main__trailer__menu__control">
+                    <div class="main__trailer__menu__control__button">
+                        <button> <img src="./dist/imagen/icons /play-svgrepo-com.svg" alt=""></button>
+                        <button> <img src="./dist/imagen/icons /audio-svgrepo-com.svg" alt=""></button>
+                    </div>
+                    <div class="main__trailer__menu__control__button">
+                    
+                         <button> <img src="./dist/imagen/icons /expand-wide-svgrepo-com.svg" alt=""></button>
+                         <button> <img src="./dist/imagen/icons /subtitles-svgrepo-com.svg" alt=""></button>
+                      
+                    </div>
+                    
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="infoFil">
+           <section class="main__sinopse">
+                    <h2 id="titulo_filme" class="main__sinopse__titulo">Estou pensando em acabar com tudo </h2> 
+                    <div class="main__sinopse__data_tema">
+                        <ul>
+                            <li class="text--small" id="data_ano">2020</li>
+                            <li class="text--small" id="classificacao">14</li>
+                            <li class="text--small"id="tema">Drama</li>
+                        </ul>
+                    </div>           
+                    
+                    <div class="main__sinopse__principal">
+                        <div class="main__sinopse__principal__p">
+                            <span> 
+                                <p>Uma jovem vai com o namorado conecer os pais dele em uma fazenda remota e embarca em uma viagem para dentro de seu próprio psiquismo. </p>
+                            </span>
+                        </div>
+                    
+                        <div class="main__sinopse__principal__divisor"></div>
+
+                        <div class="main__sinopse__principal__elenco">
+                            
+                            <p class="text--small">Elenco:<span> Buckley, Jesse PLemons, Toni Collette</span></p>
+                        </div>
+                    </div>
+           </section>
+
+           
+           <section class="main__trailer2">
+                <h2 class="title--big">Trailers</h2>
+                <div class="main__trailer2__mintrailer">
+                    <img src="./dist/imagen/estoupensandoemacabarcomtudocapa.webp" alt="">
+                        <div class="main__trailer2__mintrailer__2">
+                            <div class="div_img"> 
+                               <button> 
+                                   <a href="">
+                                    <img src="./dist/imagen/icons /play-svgrepo-com.svg" alt="">
+                                    </a> 
+                                </button>
+                            </div>
+
+                            <div class="div_p">
+                                 <p> 2min 21s</p>
+                            </div>
+                        </div>
+                </div>
+               
+                <h5>TRAILER</h5>
+                <p>Trailer:Estou pensando em acabar com tudo</p>
+           </section>
+
+            <section class="main__trailer__detalhes">
+                <h1 class="title--big">Mais detalhes </h1>
+                <div class="main__trailer__detalhes_descricao">
+                    <div> 
+                        <h4 class="text--small">Assista offline</h4>
+                        <p class="text--small">Disponíveis para download</p>
+                        <h4 class="text--small">Gênero</h4>
+                        <p class="text--small">Drama, Filmes independente, Filmes baseados em livros</p>
+                        <h4 class="text--small">Esta série é...</h4>
+                        <p class="text--small">Surreal, Complexo, Drama,Cinema de arte, Relação familiar, Aclamados pela crítica, Bseado em livros,Sombrio, Filme</p>
+                    </div>
+
+                    <div>
+                        <h4 class="text--small">Áudio</h4>
+                        <p class="text--small">Alemão, Inglês-Audiodescrição,Ingles [original],Francês,Italiano,Português</p>
+                        <h4 class="text--small">Legendas</h4>
+                        <p class="text--small">Alemão, Inglês, Francês, Italiano, Português</p>
+                    </div>
+
+                    <div>
+                        <h4 class="text--small">Elenco</h4>
+                        <p class="text--small">Jessie Buckley, Jesse Plemons, Toni Collette, David Thewlis, Guy Boyd</p>
+                    </div>
+
+                </div>
+            </section>
+        </div> 
+    
+  </main>
+
+
+
+<div class="main_carrossel">
+
+
+<section class="carrossel">
+    <div><h2 class="title--big">Talvez você também goste</h2></div>
+    <div class="carrossel__list">
+        <div class="divbtn direction--left">
+            <button>
+                <img src="./dist/imagen/icons /arrow-left-svgrepo-com.svg" alt="">
+            </button>
+         </div>
+     <ul>
+        <li>
+            <a href="">
+                <img src="./dist/imagen/interrese/ataquedoscaes.webp" alt="">
+            </a>
+        </li>
+         <li>
+            <a href="">
+                <img src="./dist/imagen/interrese/adastra.jpg" alt="">
+            </a>
+        </li>
+         <li>
+            <a href="">
+                <img src="./dist/imagen/interrese/Bajo-la-piel-de-lobo-.jpg" alt="">
+            </a>
+        </li>
+         <li>
+            <a href="">
+                <img src="./dist/imagen/interrese/download (2).jpeg" alt="">
+            </a>
+        </li>
+                 <li>
+            <a href="">
+                <img src="./dist/imagen/interrese/download.jpeg" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="./dist/imagen/interrese/images (5).jpeg" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="./dist/imagen/interrese/images.jpeg" alt="">
+            </a>
+        </li>   
+        <li>
+            <a href="">
+                <img src="./dist/imagen/interrese/io-netflix-ending-explained.jpg" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="./dist/imagen/interrese/oastronalta.jpeg" alt="">
+            </a>
+        </li>
+        
+    </ul>
+
+    <div class="divbtn direction--rigth">
+         <button>
+            <img src="./dist/imagen/icons /arrow-rigth-svgrepo-com .svg" alt="">
+         </button>
+    </div>
+   
+    </div>
+</section>
+
+<section class="carrossel">
+    <div>
+        <h2 class="title--big">Em alta</h2>
+    </div>
+
+    <div class="carrossel__list">
+        <div class="divbtn direction--left">
+          <button>
+             <img src="./dist/imagen/icons /arrow-left-svgrepo-com.svg" alt="">
+          </button>
+        </div>
+        <ul>
+            <li>
+                <a href="">
+                    <img src="./dist/imagen/emalta/alice.webp" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./dist/imagen/emalta/bavmjstd03.jpg" alt="">
+                </a>
+            </li>
+              <li>
+                <a href="">
+                    <img src="./dist/imagen/emalta/DP_6821716_LyleLyleCrocodile_2022_EST_2000x3000_BR_thumbnail_xlarge.jpg" alt="">
+                </a>
+            </li>
+              <li>
+                <a href="">
+                    <img src="./dist/imagen/emalta/images (1).jpeg" alt="">
+                </a>
+            </li>
+              <li>
+                <a href="">
+                    <img src="./dist/imagen/emalta/images (2).jpeg" alt="">
+                </a>
+            </li>
+              <li>
+                <a href="">
+                    <img src="./dist/imagen/emalta/images (3).jpeg" alt="">
+                </a>
+            </li>
+              <li>
+                <a href="">
+                    <img src="./dist/imagen/emalta/images (4).jpeg" alt="">
+                </a>
+            </li>
+              <li>
+                <a href="">
+                    <img src="./dist/imagen/emalta/images.jpeg" alt="">
+                </a>
+            </li>
+              <li>
+                <a href="">
+                    <img src="./dist/imagen/emalta/unnamed.png" alt="">
+                </a>
+            </li>
+        
+        </ul>
+   
+
+      <div class="divbtn direction--rigth">
+          <button>
+             <img src="./dist/imagen/icons /arrow-rigth-svgrepo-com .svg" alt="">
+          </button>
+        </div>
+
+         </div>
+    
+</section>
+
+</div>
+
+<section class="planos">
+    <div class="planos__titulo">
+        <h2 class="title--big">Um plano para atender ao seu estilo</h2>
+    </div>
+
+    <div class="planos__estilo">
+
+      <div class="planos__estilo_conteuto cor_de_fundo1">
+           
+             <div class="planos__estilo_conteuto_title">
+               <h3>Padrão com anúcios</h3>
+             </div>  
+
+             <div class="planos__estilo_conteuto_info text--big">
+               <h3>1080p</h3>
+             </div>  
+
+            <ul class="text--big">
+                <li><img src="./dist/imagen/icons /correct-signal-svgrepo-com.svg" alt="">Boa quanlidade  de vídeo</li>
+                <li><img src="./dist/imagen/icons /correct-signal-svgrepo-com.svg" alt="">Menos anúncios do que você pensa</li>
+            </ul>
+
+             <div class="planos__estilo_conteuto_info text--big">
+                <h3>R$ 20,90/mês</h3>
+            </div>
+     </div>
+      
+
+
+      <div class="planos__estilo_conteuto cor_de_fundo2">
+
+             <div class="planos__estilo_conteuto_title">
+                  <h3>Padrão</h3>
+             </div> 
+           <div>
+
+                <div class="planos__estilo_conteuto_info text--big">
+               <h3>1080p</h3>
+             </div>  
+             
+            <ul class="text--big">
+                <li><img src="./dist/imagen/icons /correct-signal-svgrepo-com.svg" alt="">Boa quanlidade  de vídeo</li>
+                <li><img src="./dist/imagen/icons /correct-signal-svgrepo-com.svg" alt="">Sem anúncios</li>
+            </ul>
+             <div class="planos__estilo_conteuto_info text--big">
+                  <h3>R$ 44,90/mês</h3>
+            </div>
+           </div>
+      </div>
+
+
+      <div class="planos__estilo_conteuto cor_de_fundo3">
+
+             <div class="planos__estilo_conteuto_title">
+                  <h3>Premium</h3>
+             </div> 
+
+                 <div class="planos__estilo_conteuto_info text--big">
+                  <h3>4k + HDR</h3>
+                </div>  
+          
+            <ul class="text--big">
+                <li><img src="./dist/imagen/icons /correct-signal-svgrepo-com.svg" alt="">Melhor qualidade de vídeo</li>
+                <li><img src="./dist/imagen/icons /correct-signal-svgrepo-com.svg" alt="">Som imersivo (aúdio especial)</li>
+                <li><img src="./dist/imagen/icons /correct-signal-svgrepo-com.svg" alt="">Sem anúncios</li>
+                
+            </ul>
+             <div class="planos__estilo_conteuto_info text--big">
+                  <h3>R$ 59,90/mês</h3>
+            </div>
+
+           </div>
+      </div>
+
+      </div>
+
+</section>
+
+
+
+
+<section class="novidades">
+     <div class="novidades__detalhes">
+         <div><p><span>Descubra seus próximos favoritos e novidades todas as semanas</span></p></div>
+         <div class="link"><a href="" class="text--small">Mais sobre a Netflix</a></div> 
+    </div> 
+</section>
+
+
+
+<section class="btn_entrar">
+     <div>
+        <button class="text--big">Acessar agora</button>
+     </div>
+</section>
+
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__container__duvidas"><p>Dúvidas? Ligue para <span>0800591 8943</span></p></div>
+        <ul class="footer__container__list">
+             <li class="footer__container__list__dados">
+                <a href="#" class=>Pergunta frequentes</a>
+            </li>
+            <li class="footer__container__list__dados">
+                <a href="#" class=>Central de Ajuda</a>
+            </li>
+                <li class="footer__container__list__dados">
+                <a href="#" class=>Conta</a>
+            </li>
+            <li class="footer__container__list__dados">
+                <a href="#" class=>Media Center</a>
+            </li>
+             <li class="footer__container__list__dados">
+                <a href="#" class=>Relação com investidores</a>
+            </li>
+            <li class="footer__container__list__dados">
+                <a href="#" class=>Carreira</a>
+            </li>
+                <li class="footer__container__list__dados">
+                <a href="#" class=>Resgatar cartão pré-pago</a>
+            </li>
+            <li class="footer__container__list__dados">
+                <a href="#" class=>Comprar cartão pré-pago</a>
+            </li>
+
+            <li class="footer__container__list__dados">
+                <a href="#" class=>Formas de assistir</a>
+            </li>
+            <li class="footer__container__list__dados">
+                <a href="#" class=>Termos de Uso</a>
+            </li>
+                <li class="footer__container__list__dados">
+                <a href="#" class=>Privacidade</a>
+            </li>
+            <li class="footer__container__list__dados">
+                <a href="#" class=>Preferência de cookies</a>
+            </li>
+             <li class="footer__container__list__dados">
+                <a href="#" class=>Informações de corporativas</a>
+            </li>
+            <li class="footer__container__list__dados">
+                <a href="#" class=>Entre em contato</a>
+            </li>
+                <li class="footer__container__list__dados">
+                <a href="#" class=>Teste de velocidade</a>
+            </li>
+            <li class="footer__container__list__dados">
+                <a href="#" class=>Avisos legais</a>
+            </li>
+              <li class="footer__container__list__dados">
+                <a href="#" class=>Só na Netflix</a>
+            </li>
+        </ul>
+    
+        <div class="footer__container__button">
+            <button>
+                <img src="./dist/imagen/icons /language-svgrepo-com.svg" alt="">
+                <select name="lingua" id="portu">
+                    <option value="portugues ">Português</option>
+                    <option value="portugues ">Inglês</option>
+                </select>
+            </button>
+        </div>
+        
+        <div class="footer__container__p">
+            <p>Netflix Brasil</p>
+        </div>
+    </div>
+
+</footer> 
+
+
+<script src="dist/script/script.js"></script>
